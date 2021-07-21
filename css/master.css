@@ -1,0 +1,238 @@
+/* this is the master css we will use for styling */
+
+body{
+margin:0;
+padding:0 0 10px 0;
+background-color:white;
+color:inherit;
+}
+
+p, ul, li, a, h1, h2, h3, h4, div, form, label, input{
+padding:0;
+margin:0;
+}
+
+p, ul, li{
+padding:0;
+margin:5px;
+}
+
+hr { 
+  background-color: gray;
+  height: 3px;
+  width: 100%;
+}
+
+li{
+font-size:14px;
+line-height:18px;
+}
+li.index{
+font-size:16px;
+line-height:24px
+}
+img{
+padding:0;
+margin:0;
+border:none;
+display:inherit;
+}
+
+ul{
+list-style:none;
+padding:0;
+margin:0;
+font:15px Georgia, "Times New Roman", Times, serif; color:#333333;
+
+}
+a{
+text-decoration:none;
+outline:0;
+}
+p{
+color:#666666;
+background-color:inherit;
+padding-bottom:16px;
+}
+/*--------------body-----------------*/
+img.logo{
+float:left;
+margin:42px 0 0 21px;
+width:auto;
+}
+ul.navlink{
+float:left;
+font:normal 14px/110px Georgia, "Times New Roman", Times, serif;
+padding-left:31px;
+width:auto;
+}
+ul.navlink li{
+float:left;
+width:auto;
+}
+ul.navlink li a{
+padding:0 25px;
+color:#666666;
+background-color:inherit;
+float:left;
+width:auto;
+}
+ul.navlink li a:hover{
+padding:0 23px;
+color:#003468;
+background-color:#222244;
+display:block;
+border-left:solid 2px #485C3E;
+border-right:solid 2px #485C3E;
+}
+ul.navlink li a.active{
+float:left;
+padding:0 23px;
+color:#FFFFFF;
+background-color:#A4A4D2;
+display:block;
+border-left:solid 2px #485C3E;
+border-right:solid 2px #485C3E;
+width:auto;
+cursor:text;
+}
+/*-------------------------body---------------------------*/
+#body{
+background-color:white;
+color:inherit;
+}
+.hdrpic{
+background:url(../images/hdr_bg_new.jpg) no-repeat 0 0;
+height:130px;
+background-position: center; 
+}
+
+/*---left panel---*/
+h1{
+font-size:30px;
+line-height:30px;
+color:#333333;
+background-color:inherit;
+font-weight:normal;
+padding-bottom:17px;
+}
+h1 span{
+display:block;
+font-size:18px;
+line-height:18px;
+color:#000;
+background-color:inherit;
+}
+img.pic{
+float:left;
+padding:0 22px 90px 0;
+}
+p.spltxt{
+color:#000;
+background-color:inherit;
+font-size:18px;
+line-height:18px;
+padding-top:14px;
+}
+p.spltxt span{
+color:#970600;
+background-color:inherit;
+}
+p.alquiam span{
+color:#3E5036;
+background-color:inherit;
+}
+a.detail{
+color:#3E5036;
+background-color:inherit;
+}
+a.detail:hover{
+color:#970600;
+background-color:inherit;
+}
+p.news{
+font-size:18px;
+line-height:18px;
+color:#000;
+background-color:inherit;
+}
+p.eventtxt span.april{
+color:#970600;
+background-color:inherit;
+display:block;
+}
+p.eventtxt span.two{
+color:#3E5036;
+background-color:inherit;
+display:block;
+}
+/*---right panel---*/
+p.rghttxt{
+padding-bottom:31px;
+}
+p.outpro{
+font-size:18px;
+line-height:18px;
+color:#333333;
+background-color:inherit;
+padding-top:18px;
+}
+img.product{
+padding-bottom:31px;
+}
+p.tempor{
+color:#3E5036;
+background-color:inherit;
+}
+p.tempor span{
+color:#970600;
+background-color:inherit;
+display:block;
+}
+/*--------------------------footer---------------------------*/
+#footer{
+background-color:white;
+height:97px;
+margin:0;
+}
+ul.footerlink{
+padding:20px 0 0 336px;
+margin:0;
+font-size:12px;
+line-height:14px;
+color:#3E5036;
+background-color:inherit;
+
+}
+ul.footerlink li{
+float:left;
+padding:0 4px;
+width:auto;
+}
+ul.footerlink li a{
+color:black;
+background-color:inherit;
+}
+ul.footerlink li a:hover{
+text-decoration:underline;
+}
+p.copyright{
+color:black;
+background-color:inherit;
+font-size:10px;
+line-height:14px;
+text-align:center;
+padding-top:12px;
+width:940px;
+float:left;
+}
+p.copyright span{
+display:block;
+}
+p.copyright span a{
+color:black;
+background-color:inherit;
+}
+p.copyright span a:hover{
+text-decoration:underline;
+}
