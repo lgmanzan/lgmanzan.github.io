@@ -103,7 +103,7 @@ color:inherit;
 }
 .hdrpic{
 background:url(../images/hdr_bg_new2.jpg) no-repeat 0 0;
-height:130px;
+height:135px;
 background-position: center; 
 }
 
@@ -236,3 +236,4 @@ background-color:inherit;
 p.copyright span a:hover{
 text-decoration:underline;
 }
+
